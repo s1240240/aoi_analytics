@@ -1,0 +1,65 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 uri_su   R-squared:                       0.365
+Model:                            OLS   Adj. R-squared:                  0.329
+Method:                 Least Squares   F-statistic:                     10.06
+Date:                Sat, 09 Feb 2019   Prob (F-statistic):           1.25e-26
+Time:                        12:56:16   Log-Likelihood:                -616.06
+No. Observations:                 408   AIC:                             1278.
+Df Residuals:                     385   BIC:                             1370.
+Df Model:                          22                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.2675      0.152      8.349      0.000       0.969       1.566
+price         -0.0051      0.000    -11.166      0.000      -0.006      -0.004
+youbi_日        1.0038      0.137      7.306      0.000       0.734       1.274
+youbi_月        0.0656      0.142      0.463      0.644      -0.213       0.344
+youbi_木        0.0154      0.145      0.106      0.915      -0.269       0.300
+youbi_水        0.1685      0.140      1.206      0.229      -0.106       0.443
+youbi_火       -0.0938      0.140     -0.671      0.502      -0.368       0.181
+youbi_金       -0.1509      0.141     -1.069      0.286      -0.429       0.127
+youbi_土        0.2590      0.136      1.902      0.058      -0.009       0.527
+month_11       0.5180      0.310      1.671      0.096      -0.092       1.128
+month_12       0.4725      0.264      1.787      0.075      -0.047       0.992
+month_1        0.7905      0.321      2.464      0.014       0.160       1.421
+month_2       -0.0606      0.355     -0.171      0.865      -0.758       0.637
+month_3        0.0443      0.255      0.174      0.862      -0.457       0.546
+month_4        0.0814      0.202      0.403      0.687      -0.316       0.479
+month_5       -0.1613      0.237     -0.680      0.497      -0.628       0.305
+month_6        0.0847      0.260      0.325      0.745      -0.428       0.597
+month_7       -0.4096      0.355     -1.155      0.249      -1.107       0.288
+month_8        0.2825      0.334      0.845      0.399      -0.375       0.940
+month_9       -0.1233      0.245     -0.503      0.615      -0.605       0.359
+month_10      -0.2516      0.200     -1.259      0.209      -0.645       0.141
+weather        0.0053      0.009      0.563      0.574      -0.013       0.024
+avg_temp       0.0178      0.021      0.864      0.388      -0.023       0.058
+snow           0.1307      0.181      0.721      0.472      -0.226       0.487
+sekisetu      -0.0016      0.009     -0.182      0.856      -0.019       0.016
+hour_9              0          0        nan        nan           0           0
+hour_10        1.2675      0.152      8.349      0.000       0.969       1.566
+hour_11             0          0        nan        nan           0           0
+hour_12             0          0        nan        nan           0           0
+hour_13             0          0        nan        nan           0           0
+hour_14             0          0        nan        nan           0           0
+hour_15             0          0        nan        nan           0           0
+hour_16             0          0        nan        nan           0           0
+hour_17             0          0        nan        nan           0           0
+hour_18             0          0        nan        nan           0           0
+hour_19             0          0        nan        nan           0           0
+hour_20             0          0        nan        nan           0           0
+hour_21             0          0        nan        nan           0           0
+hour_22             0          0        nan        nan           0           0
+hour_23             0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                      176.891   Durbin-Watson:                   2.097
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              817.247
+Skew:                           1.870   Prob(JB):                    3.44e-178
+Kurtosis:                       8.838   Cond. No.                     3.79e+17
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 4.63e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

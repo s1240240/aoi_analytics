@@ -1,0 +1,66 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 uri_su   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                    nan
+Method:                 Least Squares   F-statistic:                     0.000
+Date:                Thu, 14 Feb 2019   Prob (F-statistic):                nan
+Time:                        14:00:54   Log-Likelihood:                 403.45
+No. Observations:                  14   AIC:                            -778.9
+Df Residuals:                       0   BIC:                            -770.0
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.6063        inf          0        nan         nan         nan
+price         -0.0087        inf         -0        nan         nan         nan
+youbi_日    -1.972e-15        inf         -0        nan         nan         nan
+youbi_月        1.6063        inf          0        nan         nan         nan
+youbi_木     1.818e-16        inf          0        nan         nan         nan
+youbi_水    -1.442e-16        inf         -0        nan         nan         nan
+youbi_火    -5.857e-17        inf         -0        nan         nan         nan
+youbi_金     9.619e-18        inf          0        nan         nan         nan
+youbi_土    -1.778e-16        inf         -0        nan         nan         nan
+month_11       1.6063        inf          0        nan         nan         nan
+month_12    1.121e-16        inf          0        nan         nan         nan
+month_1    -1.678e-16        inf         -0        nan         nan         nan
+month_2    -2.383e-16        inf         -0        nan         nan         nan
+month_3             0        nan        nan        nan         nan         nan
+month_4             0        nan        nan        nan         nan         nan
+month_5             0        nan        nan        nan         nan         nan
+month_6             0        nan        nan        nan         nan         nan
+month_7             0        nan        nan        nan         nan         nan
+month_8             0        nan        nan        nan         nan         nan
+month_9             0        nan        nan        nan         nan         nan
+month_10            0        nan        nan        nan         nan         nan
+weather             0        nan        nan        nan         nan         nan
+avg_temp       0.0240        inf          0        nan         nan         nan
+snow                0        nan        nan        nan         nan         nan
+sekisetu            0        nan        nan        nan         nan         nan
+hour_9        -0.5280        inf         -0        nan         nan         nan
+hour_10       -2.2880        inf         -0        nan         nan         nan
+hour_11        0.3269        inf          0        nan         nan         nan
+hour_12        0.1951        inf          0        nan         nan         nan
+hour_13        0.1422        inf          0        nan         nan         nan
+hour_14       -2.7959        inf         -0        nan         nan         nan
+hour_15        1.2828        inf          0        nan         nan         nan
+hour_16       -1.5838        inf         -0        nan         nan         nan
+hour_17        1.2678        inf          0        nan         nan         nan
+hour_18       -0.0765        inf         -0        nan         nan         nan
+hour_19        2.0938        inf          0        nan         nan         nan
+hour_20       -0.1679        inf         -0        nan         nan         nan
+hour_21        1.6999        inf          0        nan         nan         nan
+hour_22        2.0380        inf          0        nan         nan         nan
+hour_23             0        nan        nan        nan         nan         nan
+==============================================================================
+Omnibus:                       16.981   Durbin-Watson:                   0.586
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               13.762
+Skew:                           1.813   Prob(JB):                      0.00103
+Kurtosis:                       6.231   Cond. No.                     1.04e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The input rank is higher than the number of observations.
+[3] The condition number is large, 1.04e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
